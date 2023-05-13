@@ -1,0 +1,46 @@
+/* :root { variables - colors } */
+
+.header {
+    background-image: url('../img/three-people-watching-laptop-and-pointing-fingers.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    max-width: 1200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.blue-button {
+    background-color: #2091F9;
+    color: #FFFFFF;
+}
+
+.pricing {
+    background-color: #252B42;
+}
+
+.free {
+    background-color: #FFFFFF;
+}
+
+.standard {
+    background-color: #2091F9;
+}
+
+.business {
+    background-color: #FFFFFF;
+}
+
+.blue-button {
+    background-color: #2091F9;
+    color: #FFFFFF;
+    border-radius: 35px;
+}
