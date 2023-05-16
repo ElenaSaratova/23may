@@ -1,26 +1,32 @@
-/* :root { variables - colors } */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-.header {
-    background-image: url('../img/three-people-watching-laptop-and-pointing-fingers.png');
-    background-repeat: no-repeat;
-    background-position: cover;
-    max-width: 1200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
+.header {
+    background-image: url('../img/three-people-watching-laptop-and-pointing-fingers.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    }
+
 .menu {
-    font-family: monospace;
     color: #FFFFFF;
+    font-family: monospace;
     font-size: 15px;
 }
 
 .blue-button {
     background-color: #2091F9;
     color: #FFFFFF;
+    border-radius: 35px;
 }
 
 .pricing {
@@ -39,8 +45,3 @@ img {
     background-color: #FFFFFF;
 }
 
-.blue-button {
-    background-color: #2091F9;
-    color: #FFFFFF;
-    border-radius: 35px;
-}
