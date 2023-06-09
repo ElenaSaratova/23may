@@ -6,17 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma imitation</title>
-    <link rel="shortcut icon" href="img/figma-icon.png" type="image/png">
+    <link rel="shortcut icon" href="img/figma-icon.png" type="image">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="large-image">
-            <img src="img/three-people-watching-laptop-and-pointing-fingers.png"
-                alt="Three People Watching Laptop">
-        </div>
-        <nav>
+        <nav class="nav-bar header__nav-bar">
             <div class="menu">
                 <a href="#">Home</a>
                 <a href="#">Product</a>
@@ -24,23 +20,25 @@
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>
-            <img class="logo-figma" src="img/logo-figma.png" alt="Figma Logo">
+            <div class="logo-figma" >
+                <img src="img/logo-figma.png" alt="Figma Logo">
+            </div>
             <div class="social-icons">
-                <img src="img/twitter.png" alt="Twitter Icon">
-                <img src="img/facebook.png" alt="Facebook Icon">
-                <img src="img/linkedin.png" alt="LinkedIn Icon">
+                <a href="#"><img src="img/twitter.png" alt="Twitter Icon"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook Icon"></a>
+                <a href="#"><img src="img/linkedin.png" alt="LinkedIn Icon"></a>
             </div>
         </nav>
         <div class="entrance">
-            <h1>The best products start with Figma</h1>
-            <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            <h1 class="entrance__title">The best products start with Figma</h1>
+            <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             <a class="blue-button" href="#">Try For Free</a>
         </div>
     </header>
 
     <main>
         <section class="features">
-            <h2>Features</h2>
+            <h2 class="features__title">Features</h2>
             <div class="openType">
                 <img src="img/drawing.png" alt="Circle and Square">
                 <h3>OpenType features Variable fonts</h3>
@@ -63,8 +61,8 @@
         </section>
         <section class="organize">
             <div>
-                <h2>Fastest Way to Organize</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="organise__title">Fastest Way to Organize</h2>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
                 <a class="blue-button" href="#">Try For Free</a>
                 <img class="laptop" src="img/laptop.png" alt="Laptop">
             </div>
@@ -73,8 +71,8 @@
             <div>
                 <h3>At your fingertips</h3>
                 <h2>Lightning Fast Prototyping</h2>
-                <h2>Newsletter</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="newsLetter__title">Newsletter</h2>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
                 <img src="img/letter.png" alt="Human Figure and Letter in an Envelope">
                 <div>
                     <h3>Subscribe to our Newsletter</h3>
@@ -86,8 +84,8 @@
         </section>
         <section class="partners">
             <div>
-                <h2>Partners</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="partners__title">Partners</h2>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
             <div>
                 <h6>Client Name</h6>
@@ -113,11 +111,11 @@
         </section>
         <section class="testimonials">
             <div>
-                <h2>Testimonials</h2>
+                <h2 class="testimonials__title">Testimonials</h2>
             </div>
             <div>
                 <img src="img/logo-ibm.png" alt="IBM Logo">
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
                 <img src="img/avatar.png" alt="Ui Designer Avatar">
                 <h6>Organize Across</h6>
                 <p>Ui Designer</p>
@@ -128,8 +126,8 @@
         </section>
         <section class="pricing">
             <div>
-                <h2>Pricing</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="pricing__title">Pricing</h2>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
             <div>
                 <div class="free">
@@ -181,8 +179,8 @@
         </section>
         <section class="contacts">
             <div>
-                <h2>Contact Us</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="contacts__title">Contact Us</h2>
+                <h4 class="slate">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
             <div>
                 <div>
@@ -252,7 +250,7 @@
             </div>
         </div>
         <div>
-            <img src="img/map-tag.png" alt="Map Tag Symbol">
+             <img src="img/map-tag.png" alt="Map Tag Symbol">
             <p>3215 Kennedy Ave.</p>
             <img src="img/phone.png" alt="Smartphone Symbol">
             <p>(258)123-8745</p>

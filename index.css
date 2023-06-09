@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+/* :root = html */
+
+:root {
+    --accent-color: #2091f9;
+    --contrast-color: #FFFFFF;
+    --ground-color: #252B42;
+    --main-text-color: #000000;
+
+    --primary-font-family: "Rubik", sans-serif;
+    --secondary-font-family: "Roboto", sans-serif;
+
+}
+
+a {
+    color: var(--contrast-color);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 img {
@@ -11,37 +31,70 @@ img {
     max-width: 100%;
 }
 
-.header {
-    background-image: url('../img/three-people-watching-laptop-and-pointing-fingers.png');
-    background-position: cover;
-    background-repeat: no-repeat;
-    }
-
-.menu {
-    color: #FFFFFF;
-    font-family: monospace;
-    font-size: 15px;
+.blue-button {
+    background-color: var(--accent-color);
+    border-radius: 35px;
+    color: var(--contrast-color);
 }
 
-.blue-button {
-    background-color: #2091F9;
-    color: #FFFFFF;
-    border-radius: 35px;
+.header {
+    background-image: url(img/three-people-watching-laptop-and-pointing-fingers.png);
+    background-size: cover;
+    color: var(--contrast-color);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 59px;
+
+}
+
+.header__nav-bar {
+    padding: 0 10px;
+    /*уточнить какое значение на фигме*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--contrast-color);
+}
+
+.logo-figma {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 206px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
 }
 
 .pricing {
-    background-color: #252B42;
+    background-color: var(--ground-color);
 }
 
 .free {
-    background-color: #FFFFFF;
+    background-color: var(--contrast-color);
 }
 
 .standard {
-    background-color: #2091F9;
+    background-color: var(--accent-color);
 }
 
 .business {
-    background-color: #FFFFFF;
+    background-color: var(--contrast-color);
 }
 
+.slate {
+    color: var(--contrast-color);
+    font-weight: bold;
+    font-style: italic;
+}
